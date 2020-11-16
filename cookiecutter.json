@@ -1,0 +1,12 @@
+{
+	"repo_name": "",
+	"author_name": "Jimbob Smith",
+	"author_email": "jimbob@example.com",
+	"project_type": ["cli", "api", "misc"],
+	"script_name": "",
+	"create_gh_repo": [true, false],
+	"enable_gh_actions": [true, false],
+	"_copy_without_render": [
+		"*/workflows/pre-commit.yml"
+	]
+}

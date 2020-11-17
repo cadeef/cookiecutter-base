@@ -1,11 +1,13 @@
 {
 	"repo_name": "",
+	"repo_description": "The coolest repo ever",
 	"author_name": "Jimbob Smith",
 	"author_email": "jimbob@example.com",
 	"project_type": ["cli", "api", "misc"],
-	"script_name": "",
-	"create_gh_repo": [true, false],
-	"enable_gh_actions": [true, false],
+	"script_name": "{{ cookiecutter.repo_name }}",
+	"create_gh_repo": ["yes", "no"],
+	"create_gh_repo_visibility": ["public", "private"],
+	"enable_gh_actions": ["yes", "no"],
 	"_copy_without_render": [
 		"*/workflows/pre-commit.yml"
 	]
